@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    background-color: rgb(26, 27, 31);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 20px 10%;
+}
+
+hr {
+    width: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    cursor: pointer;
+    padding-left: 40px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+
+
+/* last fucking THING FINALLY */
+
+.last {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.last h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #edf0f1;
+}
+
+.last p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+}
+
+.last h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+    padding-top: 20px;
+}
+
+.last h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0088a9;
+    padding-top: 10px;
+}

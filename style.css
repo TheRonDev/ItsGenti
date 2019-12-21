@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    background-color: rgb(26, 27, 31);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 20px 10%;
+}
+
+
+.hr1 {
+    position: absolute;
+    top: 160px;
+    width: 120px;
+    right: 490px;
+}
+
+.hr2 {
+    position: absolute;
+    top: 160px;
+    width: 130px;
+    left: 490px;
+}
+
+.logo {
+    cursor: pointer;
+    padding-left: 40px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+
+
+
+
+.late {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
+
+.videos {
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.videos h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #edf0f1;
+    box-shadow: 4px 8px 8px 0 rgba(0,0,0,0.2), 0px 10px 15px 0 rgba(0,0,0,0.19);
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.chall {
+    width: 400px;
+    position: relative;
+    top: 100px;
+    padding: 0px 40px;
+}
+
+.fun {
+    width: 400px;
+    position: relative;
+    top: 100px;
+    padding: 0px 40px;
+}
+
+.other {
+    position: relative;
+    top: 300px;
+    text-align: center;
+    text-shadow: black;
+}
+
+.other iframe {
+    position: relative;
+    top: 130px;
+    display: inline-block;
+    padding: 0px 40px;
+    cursor: pointer;
+}
+
+.challenge {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    top: 120px;
+    left: 490px;
+    position: absolute;
+}
+
+.funny {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #edf0f1;
+    top: 120px;
+    right: 490px;
+    position: absolute;
+}
+
+.other h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #edf0f1;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 952px) {
+    .logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+}
+
+
+
