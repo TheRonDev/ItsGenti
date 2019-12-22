@@ -51,6 +51,13 @@ hr {
     color: #0088a9;
 }
 
+a:hover,a.activated {
+    background: none;
+    color: #0082e6;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
 
 
 /* last fucking THING FINALLY */
@@ -85,7 +92,20 @@ hr {
 .last h3 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 40px;
     color: #0088a9;
     padding-top: 10px;
+}
+
+
+
+@media (max-width: 952px) {
+    .logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
 }

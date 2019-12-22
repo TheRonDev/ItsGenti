@@ -45,6 +45,13 @@ header {
     color: #0088a9;
 }
 
+a:hover,a.activated {
+    background: none;
+    color: #0082e6;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
 
 
 
@@ -102,14 +109,31 @@ header {
     color: #edf0f1;
 }
 
-.sub {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 70px;
-    color: #edf0f1;
+button {
+    padding: 20px 40px;
+    background-color: #ca0000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
     transition: all 0.3s ease 0s;
+    color: #edf0f1;
+    font-size: 20px;
 }
 
-.sub:hover {
-    color: rgba(0,136,169,0.8);
+button:hover {
+    background-color: #910202;
+}
+
+
+@media (max-width: 952px) {
+    .logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    
 }
