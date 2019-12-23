@@ -421,6 +421,7 @@ a:hover,a.activated {
     height: 150px;
     position: relative;
     top: 40px;
+    bottom: 0;
     cursor: pointer;
     }
 
@@ -430,6 +431,8 @@ a:hover,a.activated {
         font-size: 25px;
         color: #edf0f1;
         margin: 0 auto;
+        position: relative;
+        top: 70px;
     }
 
     .hr3 {
@@ -450,16 +453,10 @@ a:hover,a.activated {
 
     .chall {
         width: 300px;
-        position: relative;
-        padding: 20px 40px;
-        display: inline-block;
     }
     
     .fun {
         width: 300px;
-        position: relative;
-        padding-top: 20px;
-        display: inline-block;
     }
     
 }
