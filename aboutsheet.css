@@ -57,6 +57,14 @@ a:hover,a.activated {
     font-size: 20px;
 }
 
+.gameProject_ {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 8px;
+}
+
 
 
 
@@ -82,6 +90,13 @@ a:hover,a.activated {
     color: #edf0f1;
     padding-top: 50px;
 }
+
+.line1 {
+    width: 500px;
+    top: 20px;
+    margin: 0 auto;
+}
+
 /* Footer */
 
 .trailer {

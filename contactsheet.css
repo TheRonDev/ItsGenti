@@ -63,9 +63,17 @@ a:hover,a.activated {
     font-size: 20px;
 }
 
+.gameProject_ {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 8px;
+}
 
 
-/* last fucking THING FINALLY */
+
+
 
 .last {
     text-align: center;
