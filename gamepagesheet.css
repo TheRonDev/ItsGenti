@@ -134,9 +134,178 @@ p {
     background-color: rgb(46, 47, 51);
 }
 
+@media (max-width: 1440px) {
+    li, a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: #edf0f1;
+        text-decoration: none;
+        background-color: rgb(26, 27, 31);
+    }
+
+    .nav__links li {
+        display: block;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    .logo {
+        width: 130px;
+        padding-left: 60px;
+    }
+
+    .infoQ {
+        padding-left: 550px;
+        padding-right: 550px;
+        padding-top: 80px;
+    }
+    
+    .line1 {
+        width: 260px;
+        margin: 0 auto;
+    }
+    .line2 {
+        width: 350px;
+        margin: 0 auto;
+    }
+    
+    .k {
+        background-color: rgb(46, 47, 51);
+    }
+
+    .qna {
+        font-size: 32px;
+        font-weight: 500;
+        padding-left: 550px;
+        padding-top: 120px;
+        color: #edf0f1;
+        font-family: "Montserrat", "sans-serif";
+    }
+
+    .mainText {
+        color: #edf0f1;
+        font-family: "Montserrat", "sans-serif";
+        font-size: 32px;
+        font-weight: 500;
+        padding-left: 610px;
+        padding-top: 120px;
+    }
+    
+    .underText {
+        color: #edf0f1;
+        font-family: "Montserrat", "sans-serif";
+        font-size: 19px;
+        font-weight: 500;
+        padding-left: 350px;
+        padding-top: 30px;
+    }
+
+    .bodyText{
+        font-size: 19px;
+        padding-left: 350px;
+        padding-top: 30px;
+    }
+
+    .bodyText2{
+        font-size: 19px;
+        padding-left: 350px;
+        padding-top: 30px;
+    }
+
+    
+
+}
 
 
 @media (max-width: 1024px) {
+    li, a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: #edf0f1;
+        text-decoration: none;
+        background-color: rgb(26, 27, 31);
+    }
+
+    .nav__links li {
+        display: block;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    .logo {
+        width: 130px;
+        padding-left: 60px;
+    }
+
+    .infoQ {
+        padding-left: 260px;
+        padding-right: 260px;
+        padding-top: 80px;
+    }
+    
+    .line1 {
+        width: 260px;
+        margin: 0 auto;
+    }
+    .line2 {
+        width: 350px;
+        margin: 0 auto;
+    }
+    
+    .k {
+        background-color: rgb(46, 47, 51);
+    }
+
+    .qna {
+        font-size: 32px;
+        font-weight: 500;
+        padding-left: 340px;
+        padding-top: 120px;
+        color: #edf0f1;
+        font-family: "Montserrat", "sans-serif";
+    }
+
+    .mainText {
+        color: #edf0f1;
+        font-family: "Montserrat", "sans-serif";
+        font-size: 32px;
+        font-weight: 500;
+        padding-left: 400px;
+        padding-top: 120px;
+    }
+    
+    .underText {
+        color: #edf0f1;
+        font-family: "Montserrat", "sans-serif";
+        font-size: 19px;
+        font-weight: 500;
+        padding-left: 140px;
+        padding-top: 30px;
+    }
+
+    .bodyText{
+        font-size: 19px;
+        padding-left: 140px;
+        padding-top: 30px;
+    }
+
+    .bodyText2{
+        font-size: 19px;
+        padding-left: 140px;
+        padding-top: 30px;
+    }
+
+    
+
+}
+
+@media (max-width: 768px) {
     li, a {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
@@ -243,29 +412,12 @@ p {
     }
 
     .logo {
-        width: 130px;
-        padding-left: 60px;
+        width: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
-    .body h1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 25px;
-    color: #edf0f1;
-    }
-
-    .body p {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
-        font-size: 15px;
-        color: #edf0f1;
-        padding-top: 50px;
-    }
-
-    .body {
-        text-align: center;
-        padding-top: 130px;
-    }
+  
 
     .infoQ {
         padding-left: 60px;
@@ -320,6 +472,109 @@ p {
     .bodyText2{
         font-size: 16px;
         padding-left: 20px;
+        padding-top: 30px;
+    }
+
+    
+
+}
+
+@media (max-width: 320px) {
+    li, a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: #edf0f1;
+        text-decoration: none;
+        background-color: rgb(26, 27, 31);
+    }
+
+    .nav__links li {
+        display: block;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    .logo {
+        width: 100px;
+        padding-left: 5px;
+    }
+
+    .body h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+    }
+
+    .body p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: #edf0f1;
+        padding-top: 50px;
+    }
+
+    .body {
+        text-align: center;
+        padding-top: 130px;
+    }
+
+    .infoQ {
+        padding-left: 60px;
+        padding-right: 40px;
+        padding-top: 80px;
+    }
+    
+    .line1 {
+        display: none;
+    }
+    .line2 {
+        display: none;
+    }
+    
+    .k {
+        background-color: rgb(46, 47, 51);
+    }
+
+    .qna {
+        font-size: 22px;
+        font-weight: 500;
+        padding-left: 45px;
+        padding-top: 120px;
+        color: #edf0f1;
+        font-family: "Montserrat", "sans-serif";
+    }
+
+    .mainText {
+        color: #edf0f1;
+        font-family: "Montserrat", "sans-serif";
+        font-size: 28px;
+        font-weight: 500;
+        padding-left: 70px;
+        padding-top: 120px;
+    }
+    
+    .underText {
+        color: #edf0f1;
+        font-family: "Montserrat", "sans-serif";
+        font-size: 19px;
+        font-weight: 500;
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+
+    .bodyText{
+        font-size: 16px;
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+
+    .bodyText2{
+        font-size: 16px;
+        padding-left: 10px;
         padding-top: 30px;
     }
 
