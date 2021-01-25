@@ -43,20 +43,20 @@ hr {
     list-style: none;
 }
 
-.nav__links li {
+.nav__links .li {
     display: inline-block;
     padding: 10px 20px;
 }
 
-.nav__links li a {
+.nav__links .li .a {
     transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover {
+.nav__links .li .a:hover {
     color: #0088a9;
 }
 
-a:hover,a.activated {
+.a:hover,.a.activated {
     background: none;
     color: #0082e6;
     transition: all 0.3s ease 0s;

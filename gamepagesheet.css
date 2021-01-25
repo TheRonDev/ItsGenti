@@ -66,3 +66,70 @@ header {
     color: black;
     border-radius: 8px;
 }
+
+
+
+/* MAIN BODY*/
+
+p {
+    color: #edf0f1;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mainText {
+    color: #edf0f1;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 32px;
+    font-weight: 500;
+    padding-left: 650px;
+    padding-top: 120px;
+}
+
+.underText {
+    color: #edf0f1;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 450px;
+    padding-top: 30px;
+}
+
+.bodyText{
+    padding-left: 450px;
+    padding-top: 30px;
+}
+
+.bodyText2 {
+    padding-left: 450px;
+    padding-top: 30px;
+}
+
+.qna {
+    font-size: 32px;
+    font-weight: 500;
+    padding-left: 590px;
+    padding-top: 120px;
+    color: #edf0f1;
+    font-family: "Montserrat", "sans-serif";
+}
+
+.infoQ {
+    padding-left: 500px;
+    padding-right: 520px;
+    padding-top: 80px;
+}
+
+.line1 {
+    width: 260px;
+    margin: 0 auto;
+}
+.line2 {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.k {
+    background-color: rgb(46, 47, 51);
+}

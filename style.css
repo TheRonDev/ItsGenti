@@ -393,6 +393,7 @@ header {
 
 
 @media (max-width: 414px) {
+
     li, a {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
@@ -404,13 +405,6 @@ header {
 
     .nav__links li {
         display: block;
-    }
-
-    a:hover,a.activated {
-        background: none;
-        color: #0082e6;
-        transition: none;
-        font-size: 12px;
     }
 
     header {
@@ -475,6 +469,87 @@ header {
     }
     
 }
+
+
+
+@media (max-width: 425px) {
+
+    li, a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: #edf0f1;
+        text-decoration: none;
+        background-color: rgb(26, 27, 31);
+    }
+
+    .nav__links li {
+        display: block;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    .logo {
+        width: 130px;
+        padding-left: 60px;
+    }
+
+    .videos h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+    width: 200px;
+    margin: 0 auto;
+    }
+
+    .late {
+    width: 300px;
+    height: 150px;
+    position: relative;
+    top: 40px;
+    bottom: 0;
+    cursor: pointer;
+    }
+
+    .other h3 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        color: #edf0f1;
+        margin: 0 auto;
+        position: relative;
+        top: 70px;
+    }
+
+    .hr3 {
+        display: none;
+    }
+
+    .hr1, .hr2 {
+        display: none;
+    }
+
+    .challenge {
+        display: none;
+    }
+    
+    .funny {
+        display: none;
+    }
+
+    .chall {
+        width: 300px;
+    }
+    
+    .fun {
+        width: 300px;
+    }
+    
+}
+
 
 
 
