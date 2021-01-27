@@ -149,7 +149,7 @@ button:hover {
     li, a {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 18px;
         color: #edf0f1;
         text-decoration: none;
         background-color: rgb(26, 27, 31);
@@ -171,7 +171,7 @@ button:hover {
     }
 
     .logo {
-        width: 130px;
+        width: 170px;
         padding-left: 60px;
     }
 
@@ -184,7 +184,7 @@ button:hover {
     li, a {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 16px;
         color: #edf0f1;
         text-decoration: none;
         background-color: rgb(26, 27, 31);
@@ -206,7 +206,7 @@ button:hover {
     }
 
     .logo {
-        width: 130px;
+        width: 170px;
         padding-left: 60px;
     }
 
@@ -239,8 +239,295 @@ button:hover {
     }
 
     .logo {
-        width: 130px;
-        padding-left: 60px;
+        width: 100px;
+        padding-left: 10px;
+    }
+
+    .body h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+    }
+
+    .body p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: #edf0f1;
+        padding-top: 50px;
+    }
+
+    .body {
+        text-align: center;
+        padding-top: 130px;
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    .body p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        color: #edf0f1;
+        padding-top: 50px;
+    }
+
+
+    .trailer h2 {
+        padding-bottom: 10px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        color: #edf0f1;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 1px 8px 20px 0 rgba(0,0,0,0.19);
+        width: 250px;
+        margin: 0 auto;
+        bottom: 50px;
+        position: relative;
+    }
+
+    .trailer video {
+        width: 300px;
+        cursor: pointer;
+    }
+
+    .trailer p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        color: #edf0f1;
+    }
+
+
+}
+
+
+@media (max-width: 425px) {
+    li, a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: #edf0f1;
+        text-decoration: none;
+        background-color: rgb(26, 27, 31);
+    }
+
+    .nav__links li {
+        display: block;
+    }
+
+    .a {
+        padding-left: 30px;
+    }
+
+    a:hover,a.activated {
+        background: none;
+        color: #0082e6;
+        transition: none;
+        font-size: 12px;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    .logo {
+        width: 100px;
+        padding-left: 10px;
+    }
+
+    .body h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+    }
+
+    .body p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: #edf0f1;
+        padding-top: 50px;
+    }
+
+    .body {
+        text-align: center;
+        padding-top: 130px;
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    .body p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        color: #edf0f1;
+        padding-top: 50px;
+    }
+
+
+    .trailer h2 {
+        padding-bottom: 10px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        color: #edf0f1;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 1px 8px 20px 0 rgba(0,0,0,0.19);
+        width: 250px;
+        margin: 0 auto;
+        bottom: 50px;
+        position: relative;
+    }
+
+    .trailer video {
+        width: 300px;
+        cursor: pointer;
+    }
+
+    .trailer p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        color: #edf0f1;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+    li, a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: #edf0f1;
+        text-decoration: none;
+        background-color: rgb(26, 27, 31);
+    }
+
+    .nav__links li {
+        display: block;
+    }
+
+    .a {
+        padding-left: 20px;
+    }
+
+    a:hover,a.activated {
+        background: none;
+        color: #0082e6;
+        transition: none;
+        font-size: 12px;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    .logo {
+        width: 100px;
+        padding-left: 10px;
+    }
+
+    .body h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+    }
+
+    .body p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: #edf0f1;
+        padding-top: 50px;
+    }
+
+    .body {
+        text-align: center;
+        padding-top: 130px;
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    .body p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        color: #edf0f1;
+        padding-top: 50px;
+    }
+
+
+    .trailer h2 {
+        padding-bottom: 10px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        color: #edf0f1;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 1px 8px 20px 0 rgba(0,0,0,0.19);
+        width: 250px;
+        margin: 0 auto;
+        bottom: 50px;
+        position: relative;
+    }
+
+    .trailer video {
+        width: 300px;
+        cursor: pointer;
+    }
+
+    .trailer p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        color: #edf0f1;
+    }
+
+
+}
+
+
+@media (max-width: 320px) {
+    li, a {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: #edf0f1;
+        text-decoration: none;
+        background-color: rgb(26, 27, 31);
+    }
+
+    .nav__links li {
+        display: block;
+    }
+
+    .a {
+        padding-left: 15px;
+    }
+
+    a:hover,a.activated {
+        background: none;
+        color: #0082e6;
+        transition: none;
+        font-size: 12px;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    .logo {
+        width: 80px;
+        padding-left: 10px;
     }
 
     .body h1 {

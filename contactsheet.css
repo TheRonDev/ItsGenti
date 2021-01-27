@@ -116,7 +116,7 @@ hr {
     li, a {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 18px;
         color: #edf0f1;
         text-decoration: none;
         background-color: rgb(26, 27, 31);
@@ -138,7 +138,7 @@ hr {
     }
 
     .logo {
-        width: 130px;
+        width: 170px;
         padding-left: 60px;
     }
 
@@ -183,7 +183,7 @@ hr {
     li, a {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 16px;
         color: #edf0f1;
         text-decoration: none;
         background-color: rgb(26, 27, 31);
@@ -205,7 +205,7 @@ hr {
     }
 
     .logo {
-        width: 130px;
+        width: 170px;
         padding-left: 60px;
     }
 
@@ -274,8 +274,8 @@ hr {
     }
 
     .logo {
-        width: 130px;
-        padding-left: 60px;
+        width: 100px;
+        padding-left: 10px;
     }
 
 

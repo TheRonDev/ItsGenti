@@ -78,7 +78,7 @@ header {
 p {
     color: #edf0f1;
     font-family: "Montserrat", "sans-serif";
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -120,10 +120,6 @@ p {
     padding-top: 80px;
 }
 
-.line1 {
-    width: 260px;
-    margin: 0 auto;
-}
 .line2 {
     width: 350px;
     margin: 0 auto;
@@ -218,7 +214,7 @@ p {
     li, a {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 18px;
         color: #edf0f1;
         text-decoration: none;
         background-color: rgb(26, 27, 31);
@@ -233,7 +229,7 @@ p {
     }
 
     .logo {
-        width: 130px;
+        width: 170px;
         padding-left: 60px;
     }
 
@@ -298,7 +294,7 @@ p {
     li, a {
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 16px;
         color: #edf0f1;
         text-decoration: none;
         background-color: rgb(26, 27, 31);
@@ -313,7 +309,7 @@ p {
     }
 
     .logo {
-        width: 130px;
+        width: 170px;
         padding-left: 60px;
     }
 
@@ -383,8 +379,13 @@ p {
         font-weight: 500;
         font-size: 12px;
         color: #edf0f1;
+        padding-left: 0px;
         text-decoration: none;
         background-color: rgb(26, 27, 31);
+    }
+
+    .a {
+        padding-left: 25px;
     }
 
     .nav__links li {
@@ -396,9 +397,8 @@ p {
     }
 
     .logo {
-        width: 120px;
+        width: 100px;
         padding-left: 20px;
-        padding-right: 20px;
     }
 
   
@@ -468,6 +468,10 @@ p {
         background-color: rgb(26, 27, 31);
     }
 
+    .a {
+        padding-left: 5px;
+    }
+
     .nav__links li {
         display: block;
     }
@@ -516,7 +520,7 @@ p {
         font-family: "Montserrat", "sans-serif";
         font-size: 28px;
         font-weight: 500;
-        padding-top: 120px;
+        padding-top: 0px;
     }
     
     .underText {
