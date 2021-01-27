@@ -71,6 +71,10 @@ header {
 
 /* MAIN BODY*/
 
+.body {
+    text-align: center;
+}
+
 p {
     color: #edf0f1;
     font-family: "Montserrat", "sans-serif";
@@ -83,7 +87,6 @@ p {
     font-family: "Montserrat", "sans-serif";
     font-size: 32px;
     font-weight: 500;
-    padding-left: 650px;
     padding-top: 120px;
 }
 
@@ -92,24 +95,20 @@ p {
     font-family: "Montserrat", "sans-serif";
     font-size: 18px;
     font-weight: 500;
-    padding-left: 450px;
     padding-top: 30px;
 }
 
 .bodyText{
-    padding-left: 450px;
     padding-top: 30px;
 }
 
 .bodyText2 {
-    padding-left: 450px;
     padding-top: 30px;
 }
 
 .qna {
     font-size: 32px;
     font-weight: 500;
-    padding-left: 590px;
     padding-top: 120px;
     color: #edf0f1;
     font-family: "Montserrat", "sans-serif";
@@ -179,7 +178,6 @@ p {
     .qna {
         font-size: 32px;
         font-weight: 500;
-        padding-left: 550px;
         padding-top: 120px;
         color: #edf0f1;
         font-family: "Montserrat", "sans-serif";
@@ -190,7 +188,6 @@ p {
         font-family: "Montserrat", "sans-serif";
         font-size: 32px;
         font-weight: 500;
-        padding-left: 610px;
         padding-top: 120px;
     }
     
@@ -199,19 +196,16 @@ p {
         font-family: "Montserrat", "sans-serif";
         font-size: 19px;
         font-weight: 500;
-        padding-left: 350px;
         padding-top: 30px;
     }
 
     .bodyText{
         font-size: 19px;
-        padding-left: 350px;
         padding-top: 30px;
     }
 
     .bodyText2{
         font-size: 19px;
-        padding-left: 350px;
         padding-top: 30px;
     }
 
@@ -265,7 +259,6 @@ p {
     .qna {
         font-size: 32px;
         font-weight: 500;
-        padding-left: 340px;
         padding-top: 120px;
         color: #edf0f1;
         font-family: "Montserrat", "sans-serif";
@@ -276,7 +269,6 @@ p {
         font-family: "Montserrat", "sans-serif";
         font-size: 32px;
         font-weight: 500;
-        padding-left: 400px;
         padding-top: 120px;
     }
     
@@ -285,19 +277,16 @@ p {
         font-family: "Montserrat", "sans-serif";
         font-size: 19px;
         font-weight: 500;
-        padding-left: 140px;
         padding-top: 30px;
     }
 
     .bodyText{
         font-size: 19px;
-        padding-left: 140px;
         padding-top: 30px;
     }
 
     .bodyText2{
         font-size: 19px;
-        padding-left: 140px;
         padding-top: 30px;
     }
 
@@ -329,8 +318,8 @@ p {
     }
 
     .infoQ {
-        padding-left: 170px;
-        padding-right: 100px;
+        padding-left: 130px;
+        padding-right: 140px;
         padding-top: 80px;
     }
     
@@ -350,7 +339,6 @@ p {
     .qna {
         font-size: 32px;
         font-weight: 500;
-        padding-left: 215px;
         padding-top: 120px;
         color: #edf0f1;
         font-family: "Montserrat", "sans-serif";
@@ -361,7 +349,6 @@ p {
         font-family: "Montserrat", "sans-serif";
         font-size: 32px;
         font-weight: 500;
-        padding-left: 275px;
         padding-top: 120px;
     }
     
@@ -370,19 +357,16 @@ p {
         font-family: "Montserrat", "sans-serif";
         font-size: 19px;
         font-weight: 500;
-        padding-left: 25px;
         padding-top: 30px;
     }
 
     .bodyText{
         font-size: 19px;
-        padding-left: 20px;
         padding-top: 30px;
     }
 
     .bodyText2{
         font-size: 19px;
-        padding-left: 20px;
         padding-top: 30px;
     }
 
@@ -439,7 +423,6 @@ p {
     .qna {
         font-size: 22px;
         font-weight: 500;
-        padding-left: 75px;
         padding-top: 120px;
         color: #edf0f1;
         font-family: "Montserrat", "sans-serif";
@@ -450,7 +433,6 @@ p {
         font-family: "Montserrat", "sans-serif";
         font-size: 28px;
         font-weight: 500;
-       padding-left: 100px;
         padding-top: 120px;
     }
     
@@ -459,19 +441,16 @@ p {
         font-family: "Montserrat", "sans-serif";
         font-size: 19px;
         font-weight: 500;
-        padding-left: 25px;
         padding-top: 30px;
     }
 
     .bodyText{
         font-size: 16px;
-        padding-left: 20px;
         padding-top: 30px;
     }
 
     .bodyText2{
         font-size: 16px;
-        padding-left: 20px;
         padding-top: 30px;
     }
 
@@ -502,21 +481,6 @@ p {
         padding-left: 5px;
     }
 
-    .body h1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 25px;
-    color: #edf0f1;
-    }
-
-    .body p {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
-        font-size: 15px;
-        color: #edf0f1;
-        padding-top: 50px;
-    }
-
     .body {
         text-align: center;
         padding-top: 130px;
@@ -542,7 +506,6 @@ p {
     .qna {
         font-size: 22px;
         font-weight: 500;
-        padding-left: 45px;
         padding-top: 120px;
         color: #edf0f1;
         font-family: "Montserrat", "sans-serif";
@@ -553,7 +516,6 @@ p {
         font-family: "Montserrat", "sans-serif";
         font-size: 28px;
         font-weight: 500;
-        padding-left: 70px;
         padding-top: 120px;
     }
     
@@ -562,19 +524,16 @@ p {
         font-family: "Montserrat", "sans-serif";
         font-size: 19px;
         font-weight: 500;
-        padding-left: 25px;
         padding-top: 30px;
     }
 
     .bodyText{
         font-size: 16px;
-        padding-left: 10px;
         padding-top: 30px;
     }
 
     .bodyText2{
         font-size: 16px;
-        padding-left: 10px;
         padding-top: 30px;
     }
 
