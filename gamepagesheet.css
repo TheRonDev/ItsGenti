@@ -129,6 +129,23 @@ p {
     background-color: rgb(46, 47, 51);
 }
 
+.scrr1, .scrr2, .scrr3, .scrr4 {
+    width: 600px;
+    height: 300px;
+    padding: 10px 15px;
+}
+
+.scrText {
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 120px;
+    color: #edf0f1;
+    font-family: "Montserrat", "sans-serif";
+    margin-bottom: 32px;
+    width: 1030px;
+    margin-left: 250px;
+}
+
 @media (max-width: 1440px) {
     li, a {
         font-family: "Montserrat", sans-serif;
